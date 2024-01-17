@@ -338,8 +338,20 @@ flex-shrink: 0;
 .news-image img{
   height: 100%;
   width: 100%;
+
+
+
 }
 
+
+
+.logo{
+  margin-top: 200px;
+  border: 1px solid red;
+  text-align: center;
+  display: flex;
+  margin: 0 auto;
+}
 
 
   @media screen and (max-width:600px) {

@@ -196,7 +196,19 @@
     }
 
     .banner > h1{
-      font-size: 40px;
+        color: red;
+        font-size: 22px;
+        font-weight: 800;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .banner > p {
+        color: red;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 21px; 
     }
 
     .btn-group{

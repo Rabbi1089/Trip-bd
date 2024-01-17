@@ -226,10 +226,75 @@
   width: 100%;
   height: 286px;
 }
+
+
+
  
 
  /* =========== Destination section end =========== */
  
+
+
+
+
+/* 
+ choose section  */
+
+ .choose-text > h1{
+  color: #131318;
+text-align: center;
+font-size: 40px;
+font-weight: 800;
+ }
+
+ .choose-text > p {
+  color: rgba(19, 19, 24, 0.70);
+text-align: center;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+ }
+
+ /* ==== why choose */
+.why-choose{
+  width: 80%;
+  margin: 0 auto;
+}
+
+.choose-item{
+  display: flex;
+  gap: 30px;
+
+}
+
+.Handpicked{
+  padding: 5px;
+  width: 100%;
+  border-radius: 16px;
+  border: 1px solid rgba(251, 181, 99, 0.20);
+  background: rgba(251, 181, 99, 0.05);
+  padding: 20px;
+}
+
+.Service{
+  border-radius: 16px;
+  border: 1px solid rgba(41, 206, 246, 0.20);
+  background: rgba(41, 206, 246, 0.05);
+  padding: 20px;
+}
+
+.Guarantee{
+  width: 573px;
+  height: 180px;
+  margin: 35px auto;
+  border-radius: 16px;
+border: 1px solid rgba(233, 68, 68, 0.20);
+background: rgba(233, 68, 68, 0.05);
+padding: 20px;
+}
+
+
 
   @media screen and (max-width:600px) {
     body{
@@ -345,5 +410,12 @@
         margin: 0 auto;
       }
 
+      .choose-item{
+        flex-direction: column;
+      }
 
+        .Handpicked,.Service , .Guarantee{
+          width: 335px;
+          height: 289px;
+        }
   }

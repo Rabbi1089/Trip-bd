@@ -161,11 +161,13 @@
   @media screen and (max-width:600px) {
     body{
       background-color: white;
+      margin: 0 auto;
     }
 
     .header-nav {
-      width: 100%;
+      width: 90%;
       margin: 0 auto;
+      /* border: 5px solid rgb(0, 255, 34); */
     }
 
     .logo-section {
@@ -189,7 +191,8 @@
     }
 
     .banner{
-      width: 95%;
+      /* border: 5px solid rgb(0, 255, 34); */
+      width: 90%;
     }
 
     .banner > h1{
@@ -208,20 +211,33 @@
     }
 
     .pTour-text{
-        width: 100%;
+        margin: 0 auto;
+        width: 90%;
+        /* border: 5px solid rgb(0, 255, 34); */
+
     }
 
     .pTour-image{
-        text-align: center;
+        margin: 0 auto;
+        width: 335px;
+        height: 342px;
+        width: 90%;
+        /* border: 5px solid red; */
+        
     }
+
+    .pTour-image img{
+        height: 100%;
+        width: 100%;
+    }
+
 
     .popular-tour{
         width: 100%;
-        display: flex;
-        flex-direction: column;
+        display: grid;
+        grid-template-columns: (1, 1fr);
         padding: 5px;
         margin: 0 auto;
-        justify-content: space-around;
         gap: 10px;
       }
 
